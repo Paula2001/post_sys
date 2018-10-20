@@ -1,0 +1,40 @@
+.id {
+    color:yellow;
+    font-size: 20px;
+    float: left;
+    margin: 0px;
+
+}
+.name {
+    position: relative;
+    float: left;
+    font-size: 40px;
+    margin: 2px;
+    color: yellow;
+}
+.comment {
+    position: relative;
+    float: left;
+    margin: 2px;
+    font-size: 20px;
+    width: 100%;
+
+}
+.likes {
+    position: relative;
+    float: right;
+    font-size: 20px;
+}
+.success {
+
+}
+.error {
+
+}
+comment_body{
+    position: static;
+    background-color: red;
+    margin: 25px 0px 25px 0px;
+    float: left;
+    width: 100%;
+}
