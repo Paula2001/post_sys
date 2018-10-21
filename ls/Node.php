@@ -1,10 +1,11 @@
 <?php
     class Node{
-        public $name ,$comment ,$id ;
+        public $topic ,$comment ,$id ,$likes;
         public $next ;
-        public function __construct($id ,$name ,$comment)
+        public function __construct($id ,$topic ,$comment ,$likes)
         {
-            $this->name = $name;
+            $this->topic = $topic;
+            $this->likes = $likes;
             $this->comment = $comment ;
             $this->id = $id ;
             $next = NULL ;
